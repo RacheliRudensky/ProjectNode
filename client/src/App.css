@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.page{
+  display: grid;
+  grid-template-rows: 50px 1fr 30px;
+  min-height: 100vh;
+}
+header, footer {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  display: grid;
+  place-content: center;
+
+}
+.task-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.posts-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.nav{
+  display: flex;
+  gap: 10px;
+  font-size: 1.5rem;
+  color: white;
+}
+.delete-btn{
+  background-color:rgb(163, 164, 172)  ;
+  border: none;
+  font-size: 2rem;
+  border-radius: 50%;
+  padding: 10px;
+}
+.delete-btn:hover{
+  background-color: black;
+  color: white;
+}
+.update-btn{
+  background-color:rgb(163, 164, 172)  ;
+  border: none;
+  font-size: 2rem;
+  border-radius: 50%;
+  padding: 10px;
+}
+.update-btn:hover{
+  background-color: black;
+  color: white;
+}
